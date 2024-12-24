@@ -202,8 +202,8 @@ PRODUCT_PACKAGES += \
     IPACM_cfg.xml
 
 # Lineage Health
-PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
+#PRODUCT_PACKAGES += \
+    #vendor.lineage.health-service.default
 
 # Media
 PRODUCT_PACKAGES += \
@@ -235,7 +235,7 @@ PRODUCT_PACKAGES += \
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-aosp
+    $(LOCAL_PATH)/overlay-yaap
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
