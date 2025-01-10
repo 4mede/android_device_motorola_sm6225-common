@@ -129,9 +129,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.memtrack-service
 
 PRODUCT_PACKAGES += \
-    gralloc.bengal
-
-PRODUCT_PACKAGES += \
     init.qti.display_boot.sh
 
 # DRM
