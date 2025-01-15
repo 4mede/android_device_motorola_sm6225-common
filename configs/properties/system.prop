@@ -1,0 +1,4 @@
+# DroidX-UI props
+ro.droidx.maintainer=b
+ro.droidx.chipset=Snapdragon 662 
+ro.droidx.display_resolution=6.67" AMOLED 720x1600
