@@ -204,6 +204,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
+# Platform
+TARGET_BOARD_PLATFORM := bengal
+
 # Media
 PRODUCT_PACKAGES += \
     libOmxCore \
