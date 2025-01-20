@@ -5,6 +5,9 @@
 
 COMMON_PATH := device/motorola/sm6225-common
 
+# qcom/common
+include device/qcom/common/BoardConfigQcom.mk
+
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
